@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ondas</title>
+    <title>Ondulatória</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-</head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 
 <body>
     <header>
@@ -18,7 +19,8 @@
             <ul>
                 <img src="./imgs/fisica.png" alt="">
                 <li><a href="#section1">ONDAS ELETROMAGNÉTICAS</a></li>
-                <li><a href="#section2">CARACTERÍSTICAS</a></li>
+                <li><a href="#section2">ONDAS MECÂNICAS</a></li>
+                <li><a href="#section3">CARACTERÍSTICAS</a></li>
             </ul>
         </nav>
     </header>
@@ -260,7 +262,7 @@
                 <p>As ondas ultravioleta (UV) têm diversas aplicações na área da saúde devido às suas propriedades únicas. Contudo, seu uso requer cuidado, pois a exposição inadequada pode causar danos à pele e aos olhos</p>
                 <p><span style="color: #4990c6;">Produção de Vitamina D: </span> UVB (280-315 nm): Estimula a produção de vitamina D na pele, essencial para a saúde óssea e o funcionamento do sistema imunológico.
                     <strong>Benefícios:</strong> Prevenção de doenças como osteoporose e raquitismo.
-                    <strong>Recomendações:</strong> Exposição moderada ao sol para evitar riscos à saúd</p>
+                    <strong>Recomendações:</strong> Exposição moderada ao sol para evitar riscos à saúde</p>
                 <P><span style="color: #4990c6;">Tratamento de Doenças de Pele: </span> <strong>Psoríase e Vitiligo:</strong> Terapias baseadas em UVB (fototerapia) ajudam a reduzir inflamações e estimular a repigmentação da pele.
                     <strong>Eczema e acne:</strong> Algumas condições dermatológicas podem ser tratadas com luz UV controlada.</P>
                 <P><span style="color: #4990c6;">Riscos e Precauções: </span> <strong>Riscos:</strong> Exposição prolongada pode causar queimaduras, envelhecimento precoce, câncer de pele e danos aos olhos.
@@ -394,8 +396,50 @@
                </section>
             
         </section>
+
         <section id="section2">
-            <h1 id="caracteristicas">CARACTERÍSTICAS</h1>
+            <h1>Ondas Mecânicas</h1>
+            <div class="txt">
+                <p>Onda mecânica é uma perturbação que se propaga em um meio material e é capaz de transportar energia. 
+                    <br><br>
+                    As ondas mecânicas são vibrações ou perturbações no meio carregando energia. Essas ondas não carregam matéria e precisam de um meio para se propagar, diferentemente das ondas eletromagnéticas.
+                </p>
+                <aside id="ondamecanica"><img id="onda" src="./imgs/onda mecanica.png" alt="Onda eletromagnética"> </aside>
+            </div>
+            <div class="tiposmecanicas">
+                <h1 id="tipos">Classificação</h1>
+                <p>As ondas mecânicas podem ser classificadas de duas formas: em relação à sua direção de vibração e sua direção de propagação.</p>
+                <br>
+                <p>Com relação à direção de vibração, uma onda pode ser:</p>
+                <br>
+                <div class="imgtxt">
+                <img src="./imgs/tranversais.png" alt="">
+                <p><span style="color: #4990c6;">Transversais:</span> a vibração feita para produzir a onda é perpendicular (forma um ângulo de 90°) à sua propagação. Exemplo de onda transversal: uma pedra caindo em uma poça d’água.</p>
+                </div>
+                <div class="imgtxt">
+                <img src="./imgs/longitudinais.png" alt="">
+                <p><span style="color: #4990c6;">Longitudinais:</span> a vibração que produz a onda é paralela (mesma direção) à sua propagação. Exemplo de onda longitudinal: ondas sonoras.</p>
+                </div>
+                <br><br>
+                <p>Com relação à sua direção de propagação, uma pode ser:</p>
+                <br>
+                <div class="arrow-text">
+                <i class="fa-duotone fa-regular fa-arrow-right" style="--fa-primary-color: #1a63e0; --fa-secondary-color: #1a63e0;"></i>
+                <p><span style="color: #4990c6;">Unidimensional:</span> propaga-se apenas em uma única direção. Exemplo: uma corda de violão.</p>
+                </div>
+                <div class="arrow-text">
+                <i class="fa-duotone fa-regular fa-arrow-right" style="--fa-primary-color: #1a63e0; --fa-secondary-color: #1a63e0;"></i>
+                <p><span style="color: #4990c6;">Bidimensional:</span> propaga-se em até duas direções. Exemplo: uma pedra caindo em um lago.</p>
+                </div>
+                <div class="arrow-text">
+                <i class="fa-duotone fa-regular fa-arrow-right" style="--fa-primary-color: #1a63e0; --fa-secondary-color: #1a63e0;"></i>
+                <p><span style="color: #4990c6;">Tridimensional:</span> propaga-se em várias direções. Exemplo: uma onda sonora.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3">
+            <h1>Características</h1>
             <section class="wave-attributes">
                 <div class="attribute">
                     <h4>Amplitude</h4>
@@ -416,10 +460,6 @@
                 <div class="attribute">
                     <h4>Período (T)</h4>
                     <p>O período é o tempo necessário para a onda completar um ciclo (comprimento de onda). A unidade de medida do período é o segundo (s).</p>
-                </div>
-                <div class="attribute">
-                    <h4>Ondas Mecânicas</h4>
-                    <p>As ondas mecânicas são aquelas que necessitam de um meio material para se propagar, como ondas sonoras ou ondas em uma corda. Elas não podem se propagar no vácuo, pois precisam da matéria para transmitir sua energia.</p>
                 </div>
                 <div class="onda">
                     <img src="./imgs/onda.webp" alt="">
